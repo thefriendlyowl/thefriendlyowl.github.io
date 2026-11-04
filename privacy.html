@@ -9,9 +9,21 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><div class="wrap"><a class="brand" href="index.html">The Next <span>Mark</span></a><div class="links"><a href="index.html">Home</a><a href="pilot.html">Pilot</a><a class="btn btn-main" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform">Free paper analysis</a></div></div></nav>
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="index.html" data-text="brand">The Next Mark</a>
+    <div class="links">
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#sample">Sample report</a>
+      <a href="index.html#sessions">Focused sessions</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="btn btn-main" data-link="form" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform" target="_blank" rel="noopener">Get my free paper analysis</a>
+    </div>
+  </div>
+</nav>
 <main><section><div class="wrap legal">
-<p class="muted small">DRAFT for the pilot, last updated 4 November 2026. <!-- TODO: have someone review this before launch --></p>
+<p class="muted small">Pilot version, last updated 4 November 2026. <!-- TODO: have someone review this before launch --></p>
 <h1>Privacy policy</h1>
 <p>This explains what we collect when you send us a paper, why, and what you can ask us to do with it.</p>
 <h2>What we collect</h2>
@@ -26,11 +38,12 @@
 <!-- TODO: confirm the retention period -->
 <p>We keep papers and reports for as long as the pilot runs, so we can compare re-tests with the first paper. After that we delete them, unless you ask us to keep them.</p>
 <h2 id="deletion">Request deletion</h2>
-<p>You can ask us to delete your child's papers and reports at any time. Message us on <a href="https://wa.me/91XXXXXXXXXX">WhatsApp</a> with the student's first name and the number you used to submit, and we will confirm once it's done.</p>
+<p>You can ask us to delete your child's papers and reports at any time. Message us on <a data-link="whatsapp" href="index.html#start">WhatsApp</a> with the student's first name and the number you used to submit, and we will confirm once it's done.</p>
 <h2>Children's information</h2>
 <p>Most students are under 18. We only accept submissions from a parent or guardian, or from someone who has their permission, and the form asks you to confirm this.</p>
 <h2>Contact</h2>
-<p>Questions about privacy: <a href="https://wa.me/91XXXXXXXXXX">WhatsApp +91 XXXXX XXXXX</a>.</p>
+<p>Questions about privacy: <a data-link="whatsapp" href="index.html#start">WhatsApp</a>.</p>
 </div></section></main>
 <footer><div class="wrap"><span>© 2026 The Next Mark</span><span class="footlinks"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Pilot terms</a></span></div></footer>
+<script src="config.js"></script>
 </body></html>

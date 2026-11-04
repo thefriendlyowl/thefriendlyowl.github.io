@@ -11,17 +11,16 @@
 </head>
 <body>
 
-<nav>
+<nav aria-label="Main">
   <div class="wrap">
-    <a class="brand" href="index.html">The Next <span>Mark</span></a>
+    <a class="brand" href="index.html" data-text="brand">The Next Mark</a>
     <div class="links">
       <a href="index.html#how">How it works</a>
       <a href="index.html#sample">Sample report</a>
-      <a class="active" href="pilot.html">Pilot</a>
-      <a href="index.html#team">Who teaches</a>
-      <a href="#faq">FAQ</a>
-      
-      <a class="btn btn-main" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform">Free paper analysis</a>
+      <a href="index.html#sessions">Focused sessions</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="btn btn-main" data-link="form" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform" target="_blank" rel="noopener">Get my free paper analysis</a>
     </div>
   </div>
 </nav>
@@ -33,9 +32,9 @@
       <h1>CBSE Class 10 Maths &amp; Science pilot</h1>
       <p class="lead">Start with your child's actual paper rather than another full course. We are running a small first batch to make sure our analysis is genuinely useful to families.</p>
       <div class="btns">
-        <a class="btn btn-main" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform">Get my free analysis</a>
-        <!-- TODO: WhatsApp number -->
-        <a class="btn btn-plain" href="https://wa.me/91XXXXXXXXXX">Talk to us on WhatsApp</a>
+        <a class="btn btn-main" data-link="form" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform" target="_blank" rel="noopener">Get my free paper analysis</a>
+        
+        <a class="btn btn-plain" data-link="whatsapp" href="index.html#start">Talk to us on WhatsApp</a>
       </div>
       <p class="trustline">Free during the pilot · Maths &amp; Science · Human-reviewed · No subscription</p>
     </div>
@@ -57,7 +56,7 @@
           <li>Recommended next steps</li>
           <li>Human review before anything is shared</li>
         </ul>
-        <div class="btns"><a class="btn btn-main" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform">Get my free analysis</a></div>
+        <div class="btns"><a class="btn btn-main" data-link="form" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform" target="_blank" rel="noopener">Get my free paper analysis</a></div>
         <p class="note">There is no obligation to book a paid session afterwards.</p>
       </div>
       <div class="card offer">
@@ -124,8 +123,8 @@
     <div class="cta">
       <div><h2 style="margin-bottom:6px">Have a recent Class 10 Maths or Science paper?</h2><p>Let's see what's costing marks.</p></div>
       <div class="btns" style="margin:0">
-        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform">Get my free paper analysis</a>
-        <a class="btn btn-plain" style="background:transparent;color:#fff;border-color:#9fb6cf" href="https://wa.me/91XXXXXXXXXX">Ask us on WhatsApp</a>
+        <a class="btn" data-link="form" href="https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform" target="_blank" rel="noopener">Get my free paper analysis</a>
+        <a class="btn btn-plain on-dark" data-link="whatsapp" href="index.html#start">Talk to us on WhatsApp</a>
       </div>
     </div>
   </div>
@@ -138,7 +137,8 @@
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/91XXXXXXXXXX">WhatsApp us</a>
+<a class="wa-float" data-link="whatsapp" href="index.html#start">WhatsApp us</a>
 
+<script src="config.js"></script>
 </body>
 </html>

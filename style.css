@@ -162,7 +162,7 @@ footer a{color:var(--muted)}
 .legal h2{font-size:22px;margin-top:32px}
 .footlinks a{margin-left:16px}
 .wa-float{position:fixed;right:16px;bottom:16px;background:#1f8f4e;color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:11px 16px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.18);z-index:20}
-@media(min-width:900px){.wa-float{display:none}}
+
 .profile .photo{width:96px;height:96px;border-radius:50%;background:#e9ecf0;color:#8a93a0;display:grid;place-items:center;font-size:13px}
 .profile img{width:96px;height:96px;border-radius:50%;object-fit:cover;display:block}
 .profile .role{display:block;color:var(--muted);font-size:14px}
@@ -218,3 +218,11 @@ footer .disclaimer{display:inline}
 footer .footlinks{display:flex;flex-wrap:wrap;gap:6px 18px}
 footer .footlinks a{margin:0;white-space:nowrap}
 @media(max-width:480px){footer{padding-bottom:84px}}
+
+/* WhatsApp icon on buttons + floating button on every screen size */
+.wa-ico{width:18px;height:18px;flex:none;vertical-align:-3px;margin-right:7px;color:#1f8f4e}
+.btn .wa-ico{display:inline-block}
+.on-dark .wa-ico{color:#fff}
+.wa-float{display:inline-flex;align-items:center}
+.wa-float .wa-ico{color:#fff;width:22px;height:22px}
+@media(min-width:900px){.wa-float{right:24px;bottom:24px}}

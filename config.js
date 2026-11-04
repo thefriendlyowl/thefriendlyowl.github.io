@@ -8,7 +8,7 @@ var SITE = {
   // Google Form for the free paper analysis
   formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform',
   // WhatsApp number: country code + number, digits only (e.g. 919876543210). Leave empty until ready.
-  whatsappNumber: '',
+  whatsappNumber: '916361306106',
   whatsappText: "Hi, I'd like to know more about the free paper analysis.",
   sessionText: "Hi, I'd like to book a Focused Improvement Session.",
   sessionPrice: '₹199'

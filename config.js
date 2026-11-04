@@ -4,7 +4,7 @@
  * this script keeps every page in sync with the values below.
  */
 var SITE = {
-  brand: 'The Next Mark',
+  brand: 'The Friendly Owl',
   // Google Form for the free paper analysis
   formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform',
   // WhatsApp number: country code + number, digits only (e.g. 919876543210). Leave empty until ready.

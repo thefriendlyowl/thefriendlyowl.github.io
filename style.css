@@ -1,4 +1,4 @@
-/* Shared styles for every page of The Next Mark */
+/* Shared styles for every page of The Friendly Owl */
 :root{
   --ink:#17202c; --muted:#5d6876; --line:#e4e7ec; --bg:#ffffff; --soft:#f5f7fa;
   --accent:#1e4b7a; --accent-dark:#163a60; --accent-soft:#e9f0f7;
@@ -203,3 +203,18 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #f0
 .brand{letter-spacing:-.01em}
 .brand{white-space:nowrap}
 @media(max-width:480px){.links a.btn{font-size:13px;padding:8px 11px;white-space:nowrap}.brand{font-size:17px}}
+
+/* Edit 3: The Friendly Owl */
+.brand{display:inline-flex;align-items:center;gap:8px}
+.brand .mark{width:28px;height:17px;flex:none}
+.brand .mark circle{fill:none;stroke:var(--accent);stroke-width:1.8}
+.brand .mark circle.pupil{fill:var(--accent);stroke:none}
+.profile .photo{background:var(--accent-soft);color:var(--accent);font-size:26px;font-weight:600;letter-spacing:.02em}
+.profile .exp{font-weight:600;color:var(--ink)}
+.combined{margin-top:18px;font-weight:600;color:var(--ink)}
+footer .legal{flex-basis:100%;font-size:13px}
+footer .disclaimer{display:inline}
+@media(max-width:480px){.brand .mark{width:22px;height:14px}.brand{gap:6px;font-size:16px}}
+footer .footlinks{display:flex;flex-wrap:wrap;gap:6px 18px}
+footer .footlinks a{margin:0;white-space:nowrap}
+@media(max-width:480px){footer{padding-bottom:84px}}

@@ -241,9 +241,11 @@
     <div class="section-head">
       <div class="label">Submit a paper</div>
       <h2>Get your free paper analysis</h2>
-      <p class="muted">A short form that works on a phone. PDF or clear photos are both fine. It takes about 3 minutes.</p>
+      <p class="muted">A short form that works on a phone. Upload a PDF or several clear photos of each page. It takes about 3 minutes, and we reply on WhatsApp.</p>
     </div>
-    <div class="card">
+    <!-- UPLOAD FORM: when SITE.filloutId is set in config.js, the Fillout form appears here and the Google Form card below is hidden. -->
+    <div id="fillout-slot" class="card fillout-card" hidden></div>
+    <div class="card gform-only">
       <h3>You will be asked for</h3>
       <ul class="reqlist">
         <li>Student's first name</li><li>Class (10) and board (CBSE)</li><li>Subject: Mathematics or Science</li><li>Exam type: school test, pre-board, mock or other</li>

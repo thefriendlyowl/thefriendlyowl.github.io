@@ -237,3 +237,6 @@ footer .footlinks a{margin:0;white-space:nowrap}
 .slabs li:last-child{border-bottom:0}
 details .slabs{max-width:320px}
 @media(max-width:760px){.review-price{grid-template-columns:1fr}}
+
+/* Fillout embed */
+.fillout-card{padding:8px}

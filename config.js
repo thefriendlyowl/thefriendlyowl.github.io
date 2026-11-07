@@ -8,9 +8,9 @@ var SITE = {
   // Fillout form ID for the free paper analysis (the part after fillout.com/t/ in the share link).
   // When set, the form is shown inside the website (section #start) and every "Get my free paper analysis"
   // button scrolls to it. Leave empty to keep using the Google Form below.
-  filloutId: '',
-  // Google Form (fallback while filloutId is empty)
-  formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd7H9h8vQdZ05kHGxzQ58__gGJom7AU5RpTnGGtokOtcam-9w/viewform',
+  filloutId: 'kEBzU1z71qus',
+  // Direct form link (used if JavaScript is off, or if filloutId is empty)
+  formUrl: 'https://forms.fillout.com/t/kEBzU1z71qus',
   // WhatsApp number: country code + number, digits only (e.g. 919876543210). Leave empty until ready.
   whatsappNumber: '916361306106',
   whatsappText: "Hi, I'd like to know more about the free paper analysis.",
@@ -39,6 +39,10 @@ var SITE = {
       d.setAttribute('data-fillout-dynamic-resize', '');
       d.style.width = '100%'; d.style.height = '640px';
       slot.appendChild(d);
+      var p = document.createElement('p');
+      p.className = 'muted small'; p.style.margin = '8px 12px';
+      p.innerHTML = 'Form not showing? <a href="' + SITE.formUrl + '" target="_blank" rel="noopener">Open it in a new tab</a>.';
+      slot.appendChild(p);
       var s = document.createElement('script');
       s.src = 'https://server.fillout.com/embed/v1/'; s.async = true;
       document.body.appendChild(s);

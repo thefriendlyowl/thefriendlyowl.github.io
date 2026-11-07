@@ -7,7 +7,7 @@ var SITE = {
   brand: 'The Friendly Owl',
   // Fillout form ID for the free paper analysis (the part after fillout.com/t/ in the share link).
   // When set, the form is shown inside the website (section #start) and every "Get my free paper analysis"
-  // button scrolls to it. Leave empty to keep using the Google Form below.
+  // button scrolls to it. Leave empty to link to formUrl instead.
   filloutId: 'kEBzU1z71qus',
   // Direct form link (used if JavaScript is off, or if filloutId is empty)
   formUrl: 'https://forms.fillout.com/t/kEBzU1z71qus',

@@ -59,4 +59,11 @@ var SITE = {
   });
   document.querySelectorAll('[data-text="price"]').forEach(function (el) { el.textContent = SITE.sessionPrice; });
   document.querySelectorAll('[data-text="brand"]').forEach(function (el) { el.textContent = SITE.brand; });
+
+  // Open a FAQ answer when linked to directly (e.g. #faq-pricing)
+  function openHash() {
+    var el = location.hash && document.getElementById(location.hash.slice(1));
+    if (el && el.tagName === 'DETAILS') el.open = true;
+  }
+  window.addEventListener('hashchange', openHash); openHash();
 })();

@@ -240,3 +240,7 @@ details .slabs{max-width:320px}
 
 /* Fillout embed */
 .fillout-card{padding:8px}
+details .slabs{margin:10px 0}
+details .slabs li{font-size:15px}
+.review-price{grid-template-columns:1fr}
+details[id],section[id]{scroll-margin-top:84px}

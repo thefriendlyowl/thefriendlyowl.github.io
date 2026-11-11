@@ -244,3 +244,7 @@ details .slabs{margin:10px 0}
 details .slabs li{font-size:15px}
 .review-price{grid-template-columns:1fr}
 details[id],section[id]{scroll-margin-top:84px}
+
+/* Logo image (Nov 2026) */
+.brand .logo{display:block;height:56px;width:auto}
+@media(max-width:480px){.brand .logo{height:40px}}

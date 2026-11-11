@@ -248,3 +248,7 @@ details[id],section[id]{scroll-margin-top:84px}
 /* Logo image (Nov 2026) */
 .brand .logo{display:block;height:56px;width:auto}
 @media(max-width:480px){.brand .logo{height:40px}}
+nav .links a{white-space:nowrap}
+@media(max-width:480px){.brand .logo{height:40px!important}}
+@media(max-width:1020px) and (min-width:781px){.links{gap:16px}.links a{font-size:14px}}
+@media(max-width:920px) and (min-width:781px){.links a[href$="#sample"],.links a[href$="#about"]{display:none}}
